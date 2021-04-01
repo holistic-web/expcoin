@@ -1,0 +1,20 @@
+{
+  "name": "saitama",
+  "version": "1.0.0",
+  "description": "This is the cloud function to load data from the Coinbase API.",
+  "main": "index.js",
+  "dependencies": {
+    "coinbase": "^2.0.8",
+    "eslint": "^7.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  },
+  "scripts": {
+    "start": "node app",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
