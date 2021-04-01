@@ -6,8 +6,7 @@
 
 ## Structure
 
-| Codebase             |        Description        |
-| :------------------- | :-----------------------: |
-| [saitama](saitama)   | Typescript Cloud Function |
-| :------------------- | :----------------------:  |
-| [yaeger](yaeger)     | React Typescript Web App  |
+| Codebase           |        Description        |
+| :----------------- | :-----------------------: |
+| [saitama](saitama) | Typescript Cloud Function |
+| [yaeger](yaeger)   | React Typescript Web App  |
