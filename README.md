@@ -9,4 +9,4 @@
 | Codebase           |        Description        |
 | :----------------- | :-----------------------: |
 | [saitama](saitama) | Typescript Cloud Function |
-| [yaeger](yaeger)   | React Typescript Web App  |
+| [yeager](yeager)   | React Typescript Web App  |
