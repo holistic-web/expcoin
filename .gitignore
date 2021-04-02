@@ -1,14 +1,16 @@
+# Default Global git ignore file
+
 **/node_modules
 **/.pnp
 .pnp.js
 
-# testing
+## testing
 **/coverage
 
-# production
+## production
 **/build
 
-# misc
+## misc
 .DS_Store
 .env.local
 .env.development.local
