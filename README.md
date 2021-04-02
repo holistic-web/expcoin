@@ -10,6 +10,7 @@
 | :------------------- | :-----------------------: |
 | [leonhart](leonhart) | Typescript Cloud Function |
 | [jaeger](jaeger)     | React Typescript Web App  |
+| [erwin](erwin)       | Infrastructure As Code    |
 
 ## Continous Integration
 We use github actions for our CI, which can be found in the /.github/workflows/ folder.
