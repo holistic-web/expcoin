@@ -23,23 +23,28 @@ function formatPrice(priceData: any) {
 	return `${priceData.base}: ${priceData.amount} ${priceData.currency}`;
 }
 
+async function getCoinbaseData() {
+	const currencies = await getCurrenciesPromise();
+	console.log('currencies: ', currencies);
+
+	const currencyPairs: any[] = [];
+	const fetchPriceRequests: Promise<CurrencyResult>[] = currencyPairs.map(pair => {
+		return getBuyPricePromise({ currencyPair: pair });
+	});
+
+	const results: CurrencyResult[] = await Promise.all(fetchPriceRequests);
+	const formattedResults = results.map(result => formatPrice(result.data));
+
+	formattedResults.forEach(result => {
+		console.log(result);
+	});
+
+	return results;
+}
 async function main() {
 	try {
 
-		const currencies = await getCurrenciesPromise();
-		console.log('currencies: ', currencies);
 
-		const currencyPairs: any[] = [];
-		const fetchPriceRequests: Promise<CurrencyResult>[] = currencyPairs.map(pair => {
-			return getBuyPricePromise({ currencyPair: pair });
-		});
-
-		const results: CurrencyResult[] = await Promise.all(fetchPriceRequests);
-		const formattedResults = results.map(result => formatPrice(result.data));
-
-		formattedResults.forEach(result => {
-			console.log(result);
-		});
 
 	} catch (err) {
 		console.log(err);
