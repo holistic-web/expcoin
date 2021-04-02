@@ -1,4 +1,4 @@
-# Fetch Coinbase Data - Cloud Function (Saitama)
+# Fetch Coinbase Data - Cloud Function (leonhart)
 
 This is the cloud function to load data from the Coinbase API: .
 

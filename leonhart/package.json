@@ -1,5 +1,5 @@
 {
-  "name": "saitama",
+  "name": "leonhart",
   "version": "1.0.0",
   "description": "This is the cloud function to load data from the Coinbase API.",
   "main": "index.js",
