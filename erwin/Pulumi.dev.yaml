@@ -1,0 +1,3 @@
+config:
+  azure-native:location: UK South
+  pulumi:template: azure-typescript
