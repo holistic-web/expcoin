@@ -10,7 +10,6 @@ v<p align="center">
 |----------------------|-----------------------------------|
 | [leonhart](leonhart) | Typescript Cloud Function         |
 | [levi](levi)         | Nuxt Web App (legacy)             |
-| [jaeger](jaeger)     | React Typescript Web App (legacy) |
 | [erwin](erwin)       | Infrastructure As Code            |
 
 ## Continous Integration
