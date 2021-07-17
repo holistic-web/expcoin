@@ -1,4 +1,4 @@
-import getCoinbaseData from './getCoinbaseData';
+import getCoinbaseData from '../getCoinbaseData';
 
 // @ts-ignore
 export default async function (context, req) {
