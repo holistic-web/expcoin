@@ -27,5 +27,8 @@ module.exports = {
   rules: {
     "quotes": ["error", "double"],
     "linebreak-style": 0,
+    "max-len": 0,
+    "require-jsdoc": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
   },
 };
