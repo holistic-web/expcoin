@@ -1,4 +1,4 @@
-name: ci
+name: ci-levi
 
 on:
   push:
@@ -43,7 +43,9 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies 👨🏻‍💻
-        run: yarn
+        run: |
+          cd levi
+          yarn
 
       - name: Run linter 👀
         run: |
